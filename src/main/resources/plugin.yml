@@ -1,0 +1,4 @@
+name: sCore
+version: '${project.version}'
+main: com.svantle.score.SCore
+api-version: '1.20'
