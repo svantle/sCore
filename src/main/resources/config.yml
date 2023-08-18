@@ -1,0 +1,4 @@
+# sCore Config
+
+join-sound: "ENTITY_PLAYER_LEVELUP"
+leave-sound: "BLOCK_NOTE_BLOCK_PLING"
