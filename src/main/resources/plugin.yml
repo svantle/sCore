@@ -2,3 +2,15 @@ name: sCore
 version: '${project.version}'
 main: com.svantle.score.SCore
 api-version: '1.20'
+
+commands:
+  fly:
+    usage: /<command>
+  flyspeed:
+    usage: /<command> [args]
+  heal:
+    usage: /<command>
+  feed:
+    usage: /<command>
+  workbench:
+    usage: /<command>

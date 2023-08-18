@@ -1,0 +1,33 @@
+#sCore Messages
+
+# System Messages
+plugin_prefix: "&9sCore → "
+no_permission: "&cYou don't have permission to use this command!"
+only_players: "&cOnly players can use this command!"
+player_not_found: "&cPlayer not found."
+
+# FlyCommand
+flight_enabled: "&aFlight enabled!"
+flight_disabled: "&cFlight disabled!"
+
+# FlySpeedCommand
+flyspeed_updated: "&aFlight speed set to "
+flyspeed_invalid: "&cInvalid number. Use a number between 1 and 10."
+flyspeed_usage: "&cUsage: /flyspeed <1-10>"
+
+# FeedCommand
+feed_success: "&aYou have been fed!"
+feed_success_others: "&aYou have fed <player>!"
+feed_usage: "&cUsage: /feed [player]"
+
+# HealCommand
+heal_success: "&aYou've been healed!"
+heal_success_others: "&aYou have healed <player>!"
+heal_usage: "&cUsage: /heal [player]"
+
+# WorkbenchCommand
+workbench_opened: "&aCrafting table opened!"
+
+player-join: "&aWelcome to the server!"
+player-leave: "&cGoodbye!"
+
