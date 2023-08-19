@@ -1,16 +1,20 @@
 name: sCore
-version: '${project.version}'
+author: Svantle
+version: '1.0.0'
 main: com.svantle.score.SCore
 api-version: '1.20'
+prefix: sCore
 
 commands:
   fly:
     usage: /<command>
   flyspeed:
     usage: /<command> [args]
+    aliases: ["fs"]
   heal:
     usage: /<command>
   feed:
     usage: /<command>
   workbench:
     usage: /<command>
+    aliases: ["wb", "craft", "craftingtable"]

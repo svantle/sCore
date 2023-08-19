@@ -1,33 +1,34 @@
-#sCore Messages
+# Configuration
+plugin_prefix: "&9sCore → "
 
 # System Messages
-plugin_prefix: "&9sCore → "
-no_permission: "&cYou don't have permission to use this command!"
-only_players: "&cOnly players can use this command!"
-player_not_found: "&cPlayer not found."
+no_permission: "&cYou don't have permission to do that!"
+only_players: "&cOnly players can do that!"
+player_not_found: "&cError: Unknown player, %s"
+player_join: "&aWelcome to the server!"
+player_leave: "&cGoodbye!"
+command_usage: "&cUsage: %s"
+invalid_number: "&cError: Invalid number, %s! Please use a whole number between %s and %s"
+
+# Basic Reused Messages
+enabled: "&aEnabled"
+disabled: "&cDisabled"
 
 # FlyCommand
-flight_enabled: "&aFlight enabled!"
-flight_disabled: "&cFlight disabled!"
+flight_updated: "&7Flight %s&7!"
+flight_updated_others: "&7Flight %s &7for &6%s&7!"
 
 # FlySpeedCommand
-flyspeed_updated: "&aFlight speed set to "
-flyspeed_invalid: "&cInvalid number. Use a number between 1 and 10."
-flyspeed_usage: "&cUsage: /flyspeed <1-10>"
+fly_speed_updated: "&7Flight speed set to &6%s"
+fly_speed_updated_others: "&7Set the flight speed of &6%s &7to &6%s"
 
 # FeedCommand
-feed_success: "&aYou have been fed!"
-feed_success_others: "&aYou have fed <player>!"
-feed_usage: "&cUsage: /feed [player]"
+feed_success: "&7Your hunger has been satisfied!"
+feed_success_others: "&7You satisfied the hunger of &6%s!"
 
 # HealCommand
-heal_success: "&aYou've been healed!"
-heal_success_others: "&aYou have healed <player>!"
-heal_usage: "&cUsage: /heal [player]"
+heal_success: "&7You have been healed!"
+heal_success_others: "&7You healed &6%s&7!"
 
 # WorkbenchCommand
-workbench_opened: "&aCrafting table opened!"
-
-player-join: "&aWelcome to the server!"
-player-leave: "&cGoodbye!"
-
+workbench_opened: "&7Opening workbench..."
