@@ -49,7 +49,7 @@ class FlySpeedCommand(core: SCore) : CommandExecutor {
 
 				MessageHelper.phrase(MSG_FLY_SPEED_UPDATED, speed).sendTo(sender)
 			} else {
-				MessageHelper.phrase(MSG_INVALID_NUMBER, speed, minSpeed, maxSpeed).sendTo(sender)
+				MessageHelper.phrase(MSG_INVALID_NUMBER_RANGE, speed, minSpeed, maxSpeed).sendTo(sender)
 			}
 		} else {
 			MessageHelper.phrase(MSG_NO_PERMISSION).sendTo(sender)
@@ -73,7 +73,7 @@ class FlySpeedCommand(core: SCore) : CommandExecutor {
 				MessageHelper.phrase(MSG_FLY_SPEED_UPDATED, speed).sendTo(sender)
 				MessageHelper.phrase(MSG_FLY_SPEED_UPDATED_OTHERS, target.name, speed).sendTo(target)
 			} else {
-				MessageHelper.phrase(MSG_INVALID_NUMBER, speed, minSpeed, maxSpeed).sendTo(sender)
+				MessageHelper.phrase(MSG_INVALID_NUMBER_RANGE, speed, minSpeed, maxSpeed).sendTo(sender)
 			}
 		} else {
 			MessageHelper.phrase(MSG_NO_PERMISSION).sendTo(sender)

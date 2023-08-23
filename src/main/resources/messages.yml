@@ -8,27 +8,45 @@ player_not_found: "&cError: Unknown player, %s"
 player_join: "&aWelcome to the server!"
 player_leave: "&cGoodbye!"
 command_usage: "&cUsage: %s"
-invalid_number: "&cError: Invalid number, %s! Please use a whole number between %s and %s"
+misc_invalid: "&cError: Invalid %s, %s!"
+invalid_number_range: "&cError: Invalid number, %s! Please use a whole number between %s and %s"
 
 # Basic Reused Messages
 enabled: "&aEnabled"
 disabled: "&cDisabled"
 
-# FlyCommand
+# Fly Command
 flight_updated: "&7Flight %s&7!"
 flight_updated_others: "&7Flight %s &7for &6%s&7!"
 
-# FlySpeedCommand
+# Fly Speed Command
 fly_speed_updated: "&7Flight speed set to &6%s"
 fly_speed_updated_others: "&7Set the flight speed of &6%s &7to &6%s"
 
-# FeedCommand
+# Feed Command
 feed_success: "&7Your hunger has been satisfied!"
 feed_success_others: "&7You satisfied the hunger of &6%s!"
 
-# HealCommand
+# Heal Command
 heal_success: "&7You have been healed!"
 heal_success_others: "&7You healed &6%s&7!"
 
-# WorkbenchCommand
+# Teleport Command
+teleport_to_player: "&7Teleporting you to &6%s&7!"
+teleport_player_to_player: "&7Teleporting &6%s &7to &6%s&7!"
+
+# Gamemode Command
+gamemode_self: "&7Your gamemode has been set to &6%s"
+gamemode_others: "&7You set the gamemode of &6%s &7to &e%s"
+
+# Time Command
+time_get: "&7The current time is &6%s"
+time_set: "&7The world time has been set to &6%s"
+time_add: "&7Added &6%s &7to the world time"
+
+# Workbench Command
 workbench_opened: "&7Opening workbench..."
+
+# Clear Inventory Command
+inventory_clear_self: "&7Your inventory has been cleared"
+inventory_clear_others: "&7Cleared the inventory of &6%s"

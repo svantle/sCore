@@ -14,7 +14,8 @@ const val MSG_COMMAND_USAGE = "command_usage"
 // Reused Messages
 const val MSG_ENABLED = "enabled"
 const val MSG_DISABLED = "disabled"
-const val MSG_INVALID_NUMBER = "invalid_number"
+const val MSG_INVALID = "misc_invalid"
+const val MSG_INVALID_NUMBER_RANGE = "invalid_number_range"
 
 // Command Feedback Messages
 const val MSG_FLIGHT_UPDATED = "flight_updated"
@@ -30,3 +31,16 @@ const val MSG_HEAL_SUCCESS = "heal_success"
 const val MSG_HEAL_SUCCESS_OTHERS = "heal_success_others"
 
 const val MSG_WORKBENCH_OPENED = "workbench_opened"
+
+const val MSG_TELEPORT_TO_PLAYER = "teleport_to_player"
+const val MSG_TELEPORT_PLAYER_TO_PLAYER = "teleport_player_to_player"
+
+const val MSG_GAMEMODE_SELF = "gamemode_self"
+const val MSG_GAMEMODE_OTHERS = "gamemode_others"
+
+const val MSG_TIME_GET = "time_get"
+const val MSG_TIME_SET = "time_set"
+const val MSG_TIME_ADD = "time_add"
+
+const val MSG_INVENTORY_CLEAR_SELF = "inventory_clear_self"
+const val MSG_INVENTORY_CLEAR_OTHERS = "inventory_clear_others"

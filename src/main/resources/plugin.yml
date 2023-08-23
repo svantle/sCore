@@ -7,14 +7,25 @@ prefix: sCore
 
 commands:
   fly:
-    usage: /<command>
+    usage: /<command> [args]
   flyspeed:
     usage: /<command> [args]
     aliases: ["fs"]
   heal:
-    usage: /<command>
+    usage: /<command> [args]
   feed:
-    usage: /<command>
+    usage: /<command> [args]
   workbench:
     usage: /<command>
     aliases: ["wb", "craft", "craftingtable"]
+  teleport:
+    usage: /<command> [args]
+    aliases: ["tp", "tpplayer", "tpto", "tpp"]
+  gamemode:
+    usage: /<command> [args]
+    aliases: ["gm"]
+  time:
+    usage: /<command> [args]
+  clearinventory:
+    usage: /<command> [args]
+    aliases: ["clear", "clearinv", "ci"]

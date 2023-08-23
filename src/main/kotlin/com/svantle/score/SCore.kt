@@ -29,6 +29,10 @@ class SCore: JavaPlugin() {
 		FlySpeedCommand(this)
 		HealCommand(this)
 		WorkbenchCommand(this)
+		TeleportCommand(this)
+		GamemodeCommand(this)
+		TimeCommand(this)
+		ClearInventoryCommand(this)
 	}
 
 	companion object {
