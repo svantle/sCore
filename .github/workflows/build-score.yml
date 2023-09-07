@@ -1,13 +1,6 @@
 name: Build sCore Plugin
 
-on:
-  push:
-    branches:
-      - main
-      - develop
-  pull_request:
-    branches:
-      - main
+on: [ push, pull_request ]
 
 jobs:
   build:
