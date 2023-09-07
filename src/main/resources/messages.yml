@@ -49,6 +49,7 @@ workbench_opened: "&7Opening workbench..."
 
 # Ender Chest Command
 ender_chest_opened: "&7Opening your ender chest..."
+ender_chest_opened_others: "&7Opening &6%s's &7ender chest..."
 
 # Clear Inventory Command
 inventory_clear_self: "&7Your inventory has been cleared"

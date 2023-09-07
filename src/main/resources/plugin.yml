@@ -19,7 +19,7 @@ commands:
     usage: /<command>
     aliases: ["wb", "craft", "craftingtable"]
   enderchest:
-    usage: /<command>
+    usage: /<command> [args]
     aliases: ["ec", "echest"]
   teleport:
     usage: /<command> [args]

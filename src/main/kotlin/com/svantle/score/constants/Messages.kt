@@ -33,6 +33,7 @@ const val MSG_HEAL_SUCCESS_OTHERS = "heal_success_others"
 const val MSG_WORKBENCH_OPENED = "workbench_opened"
 
 const val MSG_ENDER_CHEST_OPENED = "ender_chest_opened"
+const val MSG_ENDER_CHEST_OPENED_OTHERS = "ender_chest_opened_others"
 
 const val MSG_TELEPORT_TO_PLAYER = "teleport_to_player"
 const val MSG_TELEPORT_PLAYER_TO_PLAYER = "teleport_player_to_player"

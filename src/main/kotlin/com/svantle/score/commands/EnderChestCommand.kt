@@ -27,6 +27,11 @@ class EnderChestCommand(core: SCore) : CommandExecutor {
             }
         }
 
+        // TODO: Add the ability to view other players' ender chests
+        // The following constants have been added to aid in a faster implementation
+        // MSG_ENDER_CHEST_OPENED_OTHERS
+        // ENDER_CHEST_OTHERS_COMMAND
+
         return true
     }
 }
