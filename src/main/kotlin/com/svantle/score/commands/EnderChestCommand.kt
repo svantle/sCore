@@ -19,7 +19,7 @@ class EnderChestCommand(core: SCore) : CommandExecutor {
         if (sender !is Player) {
             MessageHelper.phrase(MSG_ONLY_PLAYERS).sendTo(sender)
         } else {
-            if (sender.hasPermission(WORKBENCH_COMMAND)) {
+            if (sender.hasPermission(ENDER_CHEST_COMMAND)) {
                 sender.openInventory(sender.enderChest);
                 MessageHelper.phrase(MSG_ENDER_CHEST_OPENED).sendTo(sender)
             } else {
