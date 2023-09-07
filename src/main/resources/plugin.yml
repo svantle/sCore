@@ -18,6 +18,9 @@ commands:
   workbench:
     usage: /<command>
     aliases: ["wb", "craft", "craftingtable"]
+  enderchest:
+    usage: /<command>
+    aliases: ["ec", "echest"]
   teleport:
     usage: /<command> [args]
     aliases: ["tp", "tpplayer", "tpto", "tpp"]

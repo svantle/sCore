@@ -47,6 +47,9 @@ time_add: "&7Added &6%s &7to the world time"
 # Workbench Command
 workbench_opened: "&7Opening workbench..."
 
+# Ender Chest Command
+ender_chest_opened: "&7Opening your ender chest..."
+
 # Clear Inventory Command
 inventory_clear_self: "&7Your inventory has been cleared"
 inventory_clear_others: "&7Cleared the inventory of &6%s"

@@ -29,6 +29,7 @@ class SCore: JavaPlugin() {
 		FlySpeedCommand(this)
 		HealCommand(this)
 		WorkbenchCommand(this)
+		EnderChestCommand(this)
 		TeleportCommand(this)
 		GamemodeCommand(this)
 		TimeCommand(this)
